@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 240">
+  <defs>
+    <!-- Gradient principal -->
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Gradient mai deschis pentru text pe bare -->
+    <linearGradient id="gradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b8df5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c2adfa;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Arc pentru text între galben și roșu -->
+    <path id="middleArc" d="M 64,143 A 36,36 0 0,0 136,143" fill="none"/>
+  </defs>
+
+  <!-- Cercuri -->
+  <circle cx="100" cy="143" r="40" fill="none" stroke="#110596ff" stroke-width="1.5"/>
+  <circle cx="100" cy="143" r="38" fill="none" stroke="#e0b50bff" stroke-width="1"/>
+  <circle cx="100" cy="143" r="30" fill="none" stroke="#d80c31ff" stroke-width="0.4"/>
+
+  <!-- Simbol V -->
+  <path d="M60 50 L100 150 L140 50"
+        stroke="url(#grad)"
+        stroke-width="18"
+        fill="none"
+        stroke-linecap="round" />
+
+  <!-- Două bare orizontale (=) -->
+  <rect x="75" y="130" width="50" height="12" rx="5" fill="url(#grad)" />
+  <rect x="80" y="145" width="40" height="12" rx="5" fill="url(#grad)" />
+
+  <!-- Text pe bare (fin, monospace) -->
+  <text x="100" y="139" font-size="6" font-family="Consolas, monospace" text-anchor="middle" fill="url(#gradLight)">
+    insights
+  </text>
+  <text x="100" y="154" font-size="6" font-family="Consolas, monospace" text-anchor="middle" fill="url(#gradLight)">
+    automation
+  </text>
+
+  <!-- Text pe arc între galben și roșu -->
+  <text font-size="8" font-family="Consolas, monospace" font-weight="bold" fill="url(#grad)" text-anchor="middle">
+    <textPath href="#middleArc" startOffset="50%">
+      • ★ vorte.eu ★ •
+    </textPath>
+  </text>
+</svg>

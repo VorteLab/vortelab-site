@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="120" viewBox="0 0 350 120">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Simbol geometric in forma de V abstract -->
+  <path d="M20 20 L40 100 L60 20 L80 100 L100 20" 
+        stroke="url(#grad)" stroke-width="10" fill="none" stroke-linecap="round" />
+
+  <!-- Text Vorte.eu -->
+  <text x="130" y="75" font-family="Poppins, Arial, sans-serif" font-size="42" font-weight="700" fill="url(#grad)">
+    Vorte.eu
+  </text>
+</svg>

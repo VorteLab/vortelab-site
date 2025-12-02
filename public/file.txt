@@ -1,0 +1,4 @@
+Bine ai venit în aplicația ta Next.js!
+Acesta este un fișier de test care poate fi citit de către API-ul nostru.
+Poți folosi această metodă pentru a accesa fișierele tale și a le trimite ca răspuns.
+Experimentați cu datele și fișierele pentru a înțelege cum funcționează API-ul.
