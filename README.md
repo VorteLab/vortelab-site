@@ -1,3 +1,136 @@
+# VorteLab Main Site (Next.js + TypeScript)
+
+This repository contains the main public website of the VorteLab platform, available at:
+
+https://vorte.eu
+
+The project is built with Next.js, TypeScript and TailwindCSS.  
+It provides the public presentation site for VorteLab and links into the platform login system hosted at https://lab.vorte.eu.
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- TailwindCSS
+- PostCSS
+- React (Next.js framework)
+
+## Installation
+
+Install dependencies:
+npm install
+or:
+pnpm install
+
+Start development:
+npm run dev
+or:
+pnpm run dev
+
+Application URL in development:
+http://localhost:3000
+
+## Production Build
+
+Build for production:
+npm run build
+
+Run production server:
+npm start
+
+The build output is generated inside the ".next" directory.  
+This directory is not committed to the repository.
+
+## Environment Variables
+
+Create a ".env.local" file in the project root.
+
+Example:
+NEXT_PUBLIC_API_URL=https://backend.vorte.eu
+
+Environment files are ignored and must not be committed.
+
+## Project Structure
+
+app/
+components/
+pages/
+public/
+utils/
+next.config.js
+package.json
+tsconfig.json
+postcss.config.js
+
+## Related Repositories
+
+VorteLab Frontend (Vue 3):
+https://github.com/VorteLab/vortelab-frontend
+
+Backend API (Django):
+https://github.com/VorteLab/vortelab-backend
+
+Organization:
+https://github.com/VorteLab
+
+---------------------------------------------------------------------
+
+# Original Template README (Cruip License)
+
+Mosaic Lite Vue is a responsive dashboard template built on top of TailwindCSS and fully coded in Vue.js.  
+This template is a great starting point for anyone who wants to create a user interface for SaaS products, administrator dashboards, modern web apps, and more.
+
+UPDATE 2025-02-04: Added Tailwind v4 support.
+
+Use it for personal or commercial projects.  
+Attribution is appreciated but not required.
+
+Live demo:  
+https://mosaic-vue.cruip.com/
+
+React version:  
+https://github.com/cruip/tailwind-dashboard-template
+
+Created and maintained by Cruip.com
+
+## Usage
+
+Built with Vue 3 and Vite (template only).
+
+Project setup:
+pnpm install
+
+Development:
+pnpm run dev
+
+Production build:
+pnpm run build
+
+## Credits
+
+- Nucleo
+
+## License
+
+Released under the GPL license by Cruip.  
+You may use it for personal and commercial projects, but do not republish or resell the template.
+
+## About Cruip
+
+Italian developer/designer duo creating web resources.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Free React / Next.js landing page template
 
 ![Open React / Next.js template preview](https://github.com/user-attachments/assets/522a5e46-2a0e-48ca-80eb-87c7fa58f3ea)
