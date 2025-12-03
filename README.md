@@ -1,3 +1,17 @@
+## Related Repositories
+
+VorteLab Frontend (Vue 3):
+https://github.com/VorteLab/vortelab-frontend
+
+Backend API (Django):
+https://github.com/VorteLab/vortelab-backend
+
+Organization:
+https://github.com/VorteLab
+
+---------------------------------------------------------------------
+
+
 # VorteLab Main Site (Next.js + TypeScript)
 
 This repository contains the main public website of the VorteLab platform, available at:
@@ -62,18 +76,6 @@ package.json
 tsconfig.json
 postcss.config.js
 
-## Related Repositories
-
-VorteLab Frontend (Vue 3):
-https://github.com/VorteLab/vortelab-frontend
-
-Backend API (Django):
-https://github.com/VorteLab/vortelab-backend
-
-Organization:
-https://github.com/VorteLab
-
----------------------------------------------------------------------
 
 # Original Template README (Cruip License)
 
